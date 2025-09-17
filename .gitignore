@@ -36,3 +36,5 @@ config.local.js
 
 # Negate a previously ignored pattern (e.g., keep an important log file)
 !important.log
+
+package-lock.json
