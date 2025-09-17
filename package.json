@@ -2,7 +2,12 @@
   "name": "n8n-nodes-tumblr-auto-social",
   "version": "1.0.0",
   "description": "N8N node for Tumblr auto login and posting",
-  "keywords": ["n8n", "tumblr", "social", "automation"],
+  "keywords": [
+    "n8n",
+    "tumblr",
+    "social",
+    "automation"
+  ],
   "license": "MIT",
   "homepage": "",
   "author": {
@@ -11,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/n8n-nodes-tumblr-auto-social.git"
+    "url": "https://github.com/nguyenkhoi489/n8n-tumblr-package.git"
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc && gulp build:icons",
+    "build": "tsc",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
@@ -36,11 +41,13 @@
   },
   "devDependencies": {
     "@types/node": "^18.16.16",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
     "n8n-workflow": "*",
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "tumblr.js": "^3.0.0",
-    "oauth": "^0.10.0"
+    "oauth": "^0.10.0",
+    "tumblr.js": "^3.0.0"
   }
 }

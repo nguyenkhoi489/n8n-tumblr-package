@@ -1,0 +1,38 @@
+# Ignore all log files
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+temp/
+tmp/
+
+# Ignore build output directories
+build/
+dist/
+target/
+
+# Ignore dependency directories (e.g., Node.js, Python)
+node_modules/
+__pycache__/
+venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore specific files
+mysecret.txt
+config.local.js
+
+# Negate a previously ignored pattern (e.g., keep an important log file)
+!important.log
